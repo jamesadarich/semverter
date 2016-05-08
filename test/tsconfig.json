@@ -18,6 +18,8 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
+        "./patch.test.ts",
+        "./shell.test.ts",
         "../typings/main.d.ts"
     ],
     "atom": {

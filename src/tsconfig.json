@@ -19,6 +19,9 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
+        "./package-file.ts",
+        "./semantic-version.ts",
+        "./semverter.ts",
         "../typings/main.d.ts"
     ],
     "atom": {
