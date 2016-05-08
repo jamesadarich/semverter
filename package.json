@@ -28,5 +28,8 @@
     "tape": "^4.5.1",
     "typescript": "^1.8.10",
     "typings": "^0.8.1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
   }
 }
