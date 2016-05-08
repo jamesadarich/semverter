@@ -18,7 +18,6 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./test.test.ts",
         "../typings/main.d.ts"
     ],
     "atom": {

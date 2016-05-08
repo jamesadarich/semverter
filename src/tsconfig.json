@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true,
+        "outFile": "../semverter.js"
+    },
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "filesGlob": [
+        "./**/*.ts",
+        "../typings/main.d.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "../typings/main.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
