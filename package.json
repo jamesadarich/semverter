@@ -1,0 +1,32 @@
+{
+  "name": "semverter",
+  "version": "0.1.0",
+  "description": "Automatically iterate semantic versioning",
+  "main": "semverter.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/tape/bin/tape -- test/*.spec.js | tap-dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/semverter.git"
+  },
+  "keywords": [
+    "semantic",
+    "version",
+    "iterate"
+  ],
+  "author": "James Richford <=> (=)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/semverter/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/semverter#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "remap-istanbul": "^0.6.3",
+    "tap-dot": "^1.0.5",
+    "tape": "^4.5.1",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}
